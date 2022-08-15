@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSPlay Games</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="nav-container">
+        <nav class="nav-main">
+            <h1 class="nav-brand">DSPlayGames</h1>
+            <figure> 
+                <ul class="menu-itens">
+                    <li><a href="#news">Noticias</a></li>
+                    <li><a href="#games">Jogos</a></li>
+                    <li><a href="#subscribe" target="_blank">Inscreva-se</a></li>
+                </ul>
+                <img src="img/profile-image.svg" alt="Meu perfil">
+            </figure>
+        </nav>
+    </header>
+    <main>
+        <section id="news">
+            <h2>Ultimas notícias</h2>
+            <article>
+                <h3>Título da ultima notícia</h3>
+                <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas tempora nostrum impedit obcaecati officia.</p>
+                <hr>
+                <p class="date">13/08/2022</p>
+                <p class="preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestiae repellendus facilis totam blanditiis ullam, laboriosam aperiam quos modi! Sit perferendis modi consequatur ex! Iure consequatur ipsam maxime exercitationem vel mollitia quas rerum nulla, dolore assumenda placeat minima consequuntur eos iusto vero! Eligendi fugit reiciendis pariatur similique totam inventore, est eum. Libero eligendi animi similique, dolorem quo quae esse inventore, odio placeat commodi dolore nesciunt quos unde quasi odit! Odit eum perferendis dolorem architecto iure rem sunt ex nam accusantium! Odio, tempora vero eum tenetur officiis ad magni, laudantium numquam iste voluptatibus temporibus sit laborum ipsa. Deleniti, excepturi mollitia. Laborum.</p>
+                <a href="#">Ler mais...</a>
+            </article>
+            <article>
+                <h3>Título da ultima notícia</h3>
+                <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas tempora nostrum impedit obcaecati officia.</p>
+                <hr>
+                <p class="date">13/08/2022</p>
+                <p class="preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestiae repellendus facilis totam blanditiis ullam, laboriosam aperiam quos modi! Sit perferendis modi consequatur ex! Iure consequatur ipsam maxime exercitationem vel mollitia quas rerum nulla, dolore assumenda placeat minima consequuntur eos iusto vero! Eligendi fugit reiciendis pariatur similique totam inventore, est eum. Libero eligendi animi similique, dolorem quo quae esse inventore, odio placeat commodi dolore nesciunt quos unde quasi odit! Odit eum perferendis dolorem architecto iure rem sunt ex nam accusantium! Odio, tempora vero eum tenetur officiis ad magni, laudantium numquam iste voluptatibus temporibus sit laborum ipsa. Deleniti, excepturi mollitia. Laborum.</p>
+                <a href="#">Ler mais...</a>
+            </article>
+            <button class="btn">Carregar mais</button>
+        </section>
+        <section id="games">
+            <h2 class="games-title">Jogos</h2>
+            <div class="container-box">
+                <div class="img-box">
+                    <figure class="banner">
+                        <img src="img/horizon.png" alt="Horizon">
+                    </figure>
+                    <div class="description">
+                        <h3>Horizon Forbidden West</h3>
+                        <p><span>De</span> Sony Interactive Enterteinment</p>
+                        <h2>9.7</h2>
+                    </div>
+                </div>
+                <div class="img-box">
+                    <figure class="banner">
+                        <img src="img/horizon.png" alt="Horizon">
+                    </figure>
+                    <div class="description">
+                        <h3>Horizon Forbidden West</h3>
+                        <p><span>De</span> Sony Interactive Enterteinment</p>
+                        <h2>9.7</h2>
+                    </div>
+                </div>
+                <div class="img-box">
+                    <figure class="banner">
+                        <img src="img/horizon.png" alt="Horizon">
+                    </figure>
+                    <div class="description">
+                        <h3>Horizon Forbidden West</h3>
+                        <p><span>De</span> Sony Interactive Enterteinment</p>
+                        <h2>9.7</h2>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section id="subscribe">
+            <h1>Faça sua inscrição</h1>
+            <div class="formulario">
+                <form action="#">
+                    <div class="formulario-box">
+                        <input name="name" type="text" placeholder="Nome completo">
+                        <input name="email" type="email" placeholder="Email">
+                    </div>
+                        <p>Qual sua plataforma favorita?</p>
+                    <div class="formulario-choice">
+                        <div>
+                            <input type="radio" name="choice" id="ctrl-choice-1">
+                            <label for="ctrl-choice-1">PC</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="choice" id="ctrl-choice-2">
+                            <label for="ctrl-choice-2">Xbox</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="choice" id="ctrl-choice-3">
+                            <label for="ctrl-choice-3">Playstation</label>
+                        </div>
+                    </div>
+                    <div class="formulario-news">
+                        <input id="ctrl-news" name="inside" type="checkbox">
+                        <label for="ctrl-news">Desejo receber novidades.</label>
+                    </div>
+                    <div class="formulario-btn">
+                        <input class="envio" type="submit" value="Enviar">
+                        <input class="limpa" type="reset" value="Limpar">
+                    </div>               
+                </form>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="social">
+                <a href="#">@dsplaygames</a>
+                <a href="#">/dsplaygames</a>
+            </div>
+            <div class="right">
+                <p>DS Play Games Ltda. Todos direitos reservados.</p>
+            </div>
+            <div class="privacity">
+                <a href="#">Politica de privacidade</a>
+                <a href="#">Termos de uso</a>
+            </div>
+        </div>        
+    </footer>
+</body>
+</html>
